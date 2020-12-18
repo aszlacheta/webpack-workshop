@@ -1,0 +1,17 @@
+{
+    "name": "webpack-workshop",
+    "version": "1.0.0",
+    "description": "Webpack workshop",
+    "private": true,
+    "dependencies": {},
+    "devDependencies": {
+        "webpack": "4.44.2",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-license-plugin": "^4.1.1"
+    },
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack-dev-server --open --mode development"
+    }
+}
